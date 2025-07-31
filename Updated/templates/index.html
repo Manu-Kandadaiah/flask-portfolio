@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<section class="section hero-flex">
+  <div class="hero-left">
+    <img src="{{ url_for('static', filename='manoj1.jpg') }}" alt="Profile Pic" class="avatar-xl">
+  </div>
+  <div class="hero-right">
+    <h1>Hi, I'm <span style="color:#38bdf8">Manoj G</span></h1>
+    <p class="tagline">Turning Ideas into Impactful Code.</p>
+    <p class="subtext">From Python and SQL to Flask and MongoDB</p>
+  </div>
+</section>
+
+<!--<section class="section hero">-->
+<!--    <img src="{{ url_for('static', filename='manoj1.jpg') }}" alt="Profile Pic" class="avatar-large">-->
+<!--    <h1>Hi, I'm Manoj G</h1>-->
+<!--    <p class="tagline">Turning Ideas into Impactful Code.</p>-->
+<!--    <p class="subtext">From Python and SQL to Flask and MongoDB</p>-->
+<!--</section>-->
+
+<section class="section">
+    <h2>About Me</h2>
+    <p>
+        I’m a backend-focused Computer Science graduate skilled in building data-driven applications using Python, Flask, and SQL.
+        I’ve deployed dynamic web apps and am actively exploring blockchain and modern backend technologies.
+    </p>
+</section>
+
+<section class="section">
+    <h2>Highlighted Projects</h2>
+    <div class="grid">
+        <div class="card center">
+            <img src="{{ url_for('static', filename='iot.png') }}" alt="IoT Icon" class="icon-img">
+            <p>IoT Dashboard</p>
+        </div>
+        <div class="card center">
+            <img src="{{ url_for('static', filename='ml.png') }}" alt="ML Icon" class="icon-img">
+            <p>Machine Learning Model</p>
+        </div>
+        <div class="card center">
+            <img src="{{ url_for('static', filename='cyber.png') }}" alt="Cybersecurity Icon" class="icon-img">
+            <p>Cybersecurity Tool</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Tech Stack</h2>
+    <div class="skills">
+        <span class="badge">JavaScript</span>
+        <span class="badge">TensorFlow</span>
+        <span class="badge">React</span>
+        <span class="badge">Blockchain</span>
+    </div>
+</section>
+
+{% endblock %}
