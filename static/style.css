@@ -51,19 +51,22 @@
 }
 
 .skills {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 50px;
     margin-top: 15px;
+
 }
 
 .badge {
     background: #38bdf8;
     color: #0f172a;
     padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 0.85rem;
+    border-radius: 10px;
+    font-size: 50px
     font-weight: 600;
+    margin-left:25px;
 }
 /*Base page*/
 body {
@@ -114,6 +117,9 @@ body {
     padding: 40px;
 }
 
+.section h3 h1{
+ font-size:60px
+}
 /* Glass section container */
 .section {
     background: rgba(255, 255, 255, 0.05);
@@ -123,6 +129,14 @@ body {
     margin: 20px 0;
     backdrop-filter: blur(12px);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.section h3{
+   font-size:35px;
+
+}
+.section p{
+   font-size:19px
 }
 /*
 <!-- style.css -->
@@ -273,7 +287,7 @@ a.btn:hover {
   background: rgba(255, 255, 255, 0.02);
 }
 
-/*index
+/*index*/
 .avatar-large {
     width: 150px;
     height: 150px;
@@ -432,12 +446,13 @@ a.btn:hover {
 /*About*/
 .center-text {
   text-align: center;
+  font-size:25px;
 }
 
 .avatar-large {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
+  width: 340px;
+  height:340px;
+  border-radius: 10%;
   border: 3px solid #38bdf8;
   margin: 20px 0;
   object-fit: cover;
@@ -445,6 +460,7 @@ a.btn:hover {
 
 .quote {
   font-style: italic;
+  font-size: 20px;
   color: #94a3b8;
   margin-top: 20px;
 }
@@ -462,13 +478,14 @@ a.btn:hover {
   background: rgba(255, 255, 255, 0.05);
   padding: 20px;
   border-radius: 12px;
-  width: 150px;
+  width: 350px;
+  height: 200px
   backdrop-filter: blur(10px);
 }
 
 .icon {
-  width: 48px;
-  height: 48px;
+  width: 90px;
+  height: 98px;
   margin-bottom: 10px;
 }
 /*admin*/
