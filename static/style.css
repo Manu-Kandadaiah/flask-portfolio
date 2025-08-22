@@ -138,7 +138,11 @@ body {
 .section p{
    font-size:19px
 }
+<<<<<<< HEAD
 
+=======
+/*
+>>>>>>> 0dfd4b6a99b3f312e80449f4cd5d4e97da3995ea
 <!-- style.css -->
 body {
     margin: 0;
@@ -217,7 +221,11 @@ a.btn {
 a.btn:hover {
     background-color: #0ea5e9;
 }
+<<<<<<< HEAD
 
+=======
+*/
+>>>>>>> 0dfd4b6a99b3f312e80449f4cd5d4e97da3995ea
 /* Button */
 .btn {
   background-color: #38bdf8;
@@ -521,6 +529,7 @@ a.btn:hover {
 .admin-table tr:nth-child(even) {
   background-color: rgba(255, 255, 255, 0.02);
 }
+<<<<<<< HEAD
 /* =============================
    Base Styles (Default for Desktop)
 ============================= */
@@ -626,3 +635,6 @@ h1 {
     }
 }
 
+=======
+/**/
+>>>>>>> 0dfd4b6a99b3f312e80449f4cd5d4e97da3995ea
